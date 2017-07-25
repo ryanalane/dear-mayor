@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Do the impossible</title>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css?family=Raleway:700,800&subset=latin-ext');
+      body {
+        color: #FFFFFF;
+        background: #282828;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        font-size: 6rem;
+      }
+      p {
+        color: #fb8c00;
+        background: inherit;
+        margin: 2rem 0;
+      }
+      p.dear-name {
+        color: #FFFFFF;
+        background: inherit;
+        margin-bottom: 6rem;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="dear-name">Dear <%= name %>,</p>
+    <p><%= message %></p>
+  </body>
+</html>

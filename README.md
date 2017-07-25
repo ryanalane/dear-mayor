@@ -1,8 +1,8 @@
-# ui-server
-A simple ui-server template for serving static files and dummy API calls.
+# dear-mayor
+A bold message generator
 
 ## Install
 `npm install`
 
 ## Run
-`node ui_server.js`
+`node index.js`
